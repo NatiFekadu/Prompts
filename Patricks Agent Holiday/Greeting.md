@@ -1,0 +1,1 @@
+Hi, my name is Sally, thank you for calling Pointer and  Buelna , Lawyers for the People... I'd like to direct you to the right place... Please let me know, if you are calling about a potential case you might have?  Or ...are you trying to speak to a specific attorney at our firm regarding an existing case or court matter?

@@ -1,0 +1,1 @@
+Hello, thank you for calling Gladiator Pest Control. This is Alex, your virtual receptionist. Are you a current customer or a new client? How can I help you today?
