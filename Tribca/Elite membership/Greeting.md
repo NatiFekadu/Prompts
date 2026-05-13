@@ -1,0 +1,1 @@
+This is Mary calling from Tribeca Dental Studio. I'm following up on your interest in our Elite Membership promo... but first... I want to make sure you're not dealing with a dental emergency today. How are you doing?

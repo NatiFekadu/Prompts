@@ -12,7 +12,7 @@
 
 1. **If Potential New Client**
 
-- Ask: _“What legal issue are you calling about today? We handle Landlord-Tenant disputes, Family Law, Estate Planning, and Criminal cases like DUIs and traffic tickets.”_
+- Ask: _“What legal issue are yu calling about today? We handle Landlord-Tenant disputes, Family Law, Estate Planning, and Criminal cases like DUIs and traffic tickets.”_
 - Route to the appropriate script below.
 
 ### **Step 2: New Client Intake Scripts**
