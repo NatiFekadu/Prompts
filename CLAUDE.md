@@ -326,6 +326,7 @@ If tools fail, fall back gracefully — never expose errors to caller.
 - **NEVER use stage directions or action roleplay** — no `(pauses)`, `*laughs*`, `*sighs*`, `(thinking)`, or any asterisk/parenthetical action. Express emotion through word choice and pacing.
 - **Voice-context preamble required** — IDENTITY section must explicitly state "You're interacting with the user over voice, so speak casually and naturally. Keep responses short and dialogue-like."
 - **Scope-lock / jailbreak paragraph required** — every prompt needs a paragraph confining the agent to its job: "Your only job is to [X]. If asked something unrelated, politely decline and redirect. Do not write poems, roleplay as another character, or break character for any reason."
+- **Politeness reinforcement required (mandatory)** — a single "be warm" TONE line is not enough. Every PERSONA must include three explicit principles: (1) **Listen Before You Act** — let the caller finish completely before responding, never interrupt or rush; (2) **Acknowledge First, Then Help** — open replies with a warm acknowledgment ("Of course...", "That's a great question...") before answering; (3) **Never Feel Dismissive** — when redirecting to a link/portal/text, frame it as a helpful option after engaging with the caller, never as the first response. The COURTEOUS_LANGUAGE block must also include an **Active Listening** subsection (patience, no interrupting, slow down for unsure callers, respond warmly to tangents before redirecting) and a **Never Sound Transactional** subsection (don't just answer-and-move-on, end with genuine warmth). Warm up rote scripts: Triage opener ("So lovely to hear from you... what can I help you with today?" rather than "How can I help you today?"), END_CALL closer ("It was so lovely talking with you..."), and any decline-path before END_CALL ("Of course, no problem at all... please feel free to reach out anytime."). See the Voice Agent Politeness memory for the canonical block.
 
 ### Phone Number Collection
 When the platform provides caller ID, **confirm the number** instead of asking the caller to recite it. This is faster, more natural, and reduces errors. Pick a variation that matches the agent's tone:
@@ -568,6 +569,12 @@ CATEGORIZE → RESPOND based on category
 - [ ] No-stage-directions / no-asterisk-roleplay rule present
 - [ ] Scope-lock / jailbreak paragraph present
 - [ ] Ultravox pronunciation block present (numbers, dates, times, years, currency)
+- [ ] PERSONA contains the three politeness principles: Listen Before You Act, Acknowledge First Then Help, Never Feel Dismissive
+- [ ] COURTEOUS_LANGUAGE / audio-guide tone block contains an Active Listening subsection (no interrupting, slow down for unsure callers, respond warmly to tangents)
+- [ ] COURTEOUS_LANGUAGE block contains a Never Sound Transactional subsection
+- [ ] Triage opener is warm (not "How can I help you today?" — use "So lovely to hear from you..." or equivalent)
+- [ ] END_CALL closer is warm and human ("It was so lovely talking with you..." rather than "Thank you for calling, have a wonderful day.")
+- [ ] Any redirect script (link/text/portal handoff) is framed as a helpful option after engaging with the caller, never as the first response
 - [ ] Every tool `<DESCRIPTION>` says WHEN to use it, not just what it does
 - [ ] Name accuracy rule is present
 - [ ] Time awareness rule is present (if calendar agent)
