@@ -46,13 +46,13 @@
 
    <PRONUNCIATION>
 
-    <ITEM>"Jocham" -> "JO-kum"</ITEM>
+    <ITEM>"Jocham" -> "Yahkum"</ITEM>
 
-    <ITEM>"White and Jocham" -> "White and JO-kum"</ITEM>
+    <ITEM>"White and Jocham" -> "White and Yahkum"</ITEM>
 
     <ITEM>"Jason White" -> "JAY-son White"</ITEM>
 
-    <ITEM>"Kirk Jocham" -> "Kirk JO-kum"</ITEM>
+    <ITEM>"Kirk Jocham" -> "Kirk Yahkum"</ITEM>
 
     <ITEM>"Kathy Robinson" -> "KATH-ee ROB-in-son"</ITEM>
 
